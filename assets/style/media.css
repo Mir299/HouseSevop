@@ -1,0 +1,105 @@
+
+@media  (max-width:1200px) {
+    
+}
+
+
+@media  (max-width:992px) {
+    
+}
+
+@media  (max-width:768px) {
+    
+.nav__list{
+        position: absolute;
+        top: 15%;
+        flex-direction: column;
+        background: #242B33;
+        align-items: center;
+        right: 0;
+        padding: 15px;
+        transition: .5s;
+        transform: scaleY(0);
+        transform-origin: top;
+        border: 2px gray solid;
+        border-radius: 15px;
+        gap: 25px;
+    }
+
+    .nav__list li{
+        border-bottom: 1px gray solid;
+    }
+
+    .nav__menu:hover .nav__list{
+        transform: scaleY(1) ;
+    }
+    
+    .nav__menu-btn{
+        display: flex;
+    }
+    
+    .nav__menu:hover .nav__menu-btn span{
+        background: transparent;
+    }
+    .nav__menu:hover .nav__menu-btn span::before{
+        transform: rotate(45deg);
+        top: 5px;
+    }
+    .nav__menu:hover .nav__menu-btn span::after{
+        transform: rotate(-45deg)
+    }
+
+
+}
+
+@media  (max-width:576px) {
+    
+    .priviev__content{
+        gap: 70px;
+    }
+
+    .priviev__title{
+        font-size: 35px;
+        max-width: 450px;
+    }
+
+    .contacts{
+       gap: 20px;
+    }
+
+   
+     
+
+   
+}
+@media  (max-width:320px) {
+
+    .nav__content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav__list{
+        left: 0;
+        top: 26%;
+    }
+
+    .priviev__content{
+        gap: 40px;
+    }
+
+    .priviev__title{
+        
+        font-size: 23px;
+        max-width: 350px;
+    }
+
+    .contacts{
+    flex-direction: column;
+    gap: 30px;
+    }
+
+    .contacts__link span{
+        font-size: 15px;
+    }
+
+}
