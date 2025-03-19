@@ -265,12 +265,13 @@ gap: 40px;
 
 .flats{
     background: #242B33;
-    padding: 120px 0;
+    padding: 120px 30px;
 }
 
 .flats__content{
 display: flex;
 flex-direction: column;
+
 gap: 70px;
 
 }
@@ -299,6 +300,8 @@ align-items: center;
     background: url(../img/loft.png);
     min-height: 320px;
     width: 100%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
    align-items: end;

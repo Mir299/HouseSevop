@@ -10,6 +10,10 @@
         font-size: 38px;   
     }
 
+    .flats__lofts{
+        gap: 30px;
+    }
+
 }
 
 @media  (max-width:768px) {
@@ -91,6 +95,15 @@
         gap: 50px;
     }
 
+    .flats__lofts{
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .flats__lofts-item:hover {
+        transform: scale(1.1);
+    }
+    
    
 }
 @media  (max-width:320px) {
@@ -111,7 +124,7 @@
     .priviev__title{
         
         font-size: 23px;
-        max-width: 350px;
+        max-width: 250px;
     }
 
     .contacts{
