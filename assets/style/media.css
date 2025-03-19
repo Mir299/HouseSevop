@@ -3,7 +3,6 @@
     
 }
 
-
 @media  (max-width:992px) {
 
     .priviev__title{
@@ -57,13 +56,6 @@
         transform: rotate(-45deg)
     }
 
-    
-
-    .details__content-item p{
-        font-size: 18px;
-    }
-
-
 }
 
 @media  (max-width:576px) {
@@ -106,6 +98,7 @@
     
    
 }
+
 @media  (max-width:320px) {
 
     .nav__content{
