@@ -291,9 +291,8 @@ color: #D4C17F;
 
 .flats__lofts{
 display: flex;
-justify-content: space-between;
 align-items: center;
-
+gap: 40px;
 }
 
 .flats__lofts-item{
