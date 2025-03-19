@@ -5,7 +5,11 @@
 
 
 @media  (max-width:992px) {
-    
+
+    .priviev__title{
+        font-size: 38px;   
+    }
+
 }
 
 @media  (max-width:768px) {
@@ -49,6 +53,12 @@
         transform: rotate(-45deg)
     }
 
+    
+
+    .details__content-item p{
+        font-size: 18px;
+    }
+
 
 }
 
@@ -72,8 +82,14 @@
       justify-content: center;
     }
 
+    .details{
+        padding: 50px 30px 80px;
+    }
    
-     
+     .details__content{
+        flex-direction: column;
+        gap: 50px;
+    }
 
    
 }
