@@ -323,8 +323,9 @@ margin-left: 50px;
 }
 
 .look{
+    padding: 0 30px 40px;
+     min-height: 560px;
     background: url(../img/bg__look.png);
-    min-height: 560px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;

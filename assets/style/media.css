@@ -65,7 +65,7 @@
     }
 
     .priviev__title{
-        font-size: 35px;
+        font-size: 33px;
         max-width: 450px;
     }
 
@@ -94,6 +94,24 @@
 
     .flats__lofts-item:hover {
         transform: scale(1.1);
+    }
+
+    .look__content{
+        flex-direction: column;
+    }
+
+    .look__content h2{
+        font-size: 33px;
+    }
+
+    .look__content p{
+    font-size: 15px;
+    }
+
+    .look__forms{
+    margin-top: 30px;
+        justify-content: center;
+        gap: 10px;
     }
     
    
@@ -129,4 +147,17 @@
         font-size: 15px;
     }
 
+    .look__forms input,.forms__btn{
+        width: 100%;
+    }
+
+    .forms__btn{
+        width: 100%;    
+        padding: 5px 15px;
+        margin-top: 10px;
+    }
+
+    .look__forms p{
+        font-size: 13px;
+    }
 }
