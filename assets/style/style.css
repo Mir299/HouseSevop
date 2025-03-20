@@ -454,11 +454,15 @@ transition: .5s;
 
 
 .map{
+    padding: 0 30px 60px;
     background: #242B33;
    
 }
 
 .map__content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     font-family:'Arial';
     font-weight: 700;
     font-size: 36px;
@@ -473,11 +477,10 @@ transition: .5s;
 
 .guestion{
     background: #242B33;
-    padding-top: 130px;
-    padding-bottom: 130px;
+    padding: 130px 20px;
 }
 
-.guestion__content{
+.guestion__content{ 
     display: flex;
     flex-direction: column;
 }
@@ -494,6 +497,7 @@ color: #D4C17F;
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
+    gap: 10px;
 }
 
 .guestion__name{
@@ -546,7 +550,6 @@ color: #D4C17F;
         font-family: 'Arial';
     font-weight: 700;
     font-size: 16px;
-    line-height: 169%;
     text-align: center;
     color: #fff;
     border: none;

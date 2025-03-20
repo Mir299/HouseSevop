@@ -12,6 +12,9 @@
         gap: 30px;
     }
 
+    .guestion__forms-btn{
+        padding: 6px 25px;
+    }
    
 }
 
@@ -64,6 +67,19 @@
     .video__box{
     min-height: 500px;
 
+    }
+
+    .map__content{
+        font-size: 33px;
+    }
+
+    .guestion__forms{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .guestion__forms-btn{
+        padding: 20px 25px;
     }
 }
 
@@ -126,6 +142,18 @@
     .video__box svg{
         width: 75px;
     }
+
+    .map__content{
+        font-size: 28px;
+    }
+
+    .guestion__content h2{
+        font-size: 33px;
+    }
+
+    .guestion__forms-btn{
+        padding: 15px 20px;
+    }
    
 }
 
@@ -177,4 +205,20 @@
         min-height: 400px;
     
         }
-}
+
+        .map__content{
+            font-size: 25px;
+        }   
+
+        .guestion__content h2{
+            font-size: 30px;
+        }
+
+        .guestion__name{
+            width: 100%;
+        } 
+        
+        .guestion__phone{
+            width: 100%;
+        }
+    }
