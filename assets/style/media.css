@@ -19,10 +19,15 @@
 }
 
 @media  (max-width:768px) {
+
+    .header{
+        position: sticky;
+        top: 0;
+    }
     
 .nav__list{
         position: absolute;
-        top: 15%;
+        top: 75%;
         flex-direction: column;
         background: #242B33;
         align-items: center;
@@ -81,9 +86,15 @@
     .guestion__forms-btn{
         padding: 20px 25px;
     }
+
+    .footer__list-1{
+        display: none;
+    }
 }
 
 @media  (max-width:576px) {
+
+    
     
     .priviev__content{
         gap: 70px;
@@ -126,7 +137,7 @@
     }
 
     .look__content h2{
-        font-size: 33px;
+        font-size: 32px;
     }
 
     .look__content p{
@@ -154,6 +165,22 @@
     .guestion__forms-btn{
         padding: 15px 20px;
     }
+
+    .footer__content{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer__contact{
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer__list-adress{
+        gap: 20px;
+    }
    
 }
 
@@ -165,7 +192,7 @@
     }
     .nav__list{
         left: 0;
-        top: 26%;
+        top: 90%;
     }
 
     .priviev__content{

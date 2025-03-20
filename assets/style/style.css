@@ -566,7 +566,7 @@ color: #D4C17F;
 
 .footer{
     background: #2d343c;
-    padding: 60px 0;
+    padding: 60px 30px;
 }
 
 .footer__content{
@@ -593,6 +593,12 @@ color: #D4C17F;
     }
 
     .footer__list-1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer__list-adress{
         display: flex;
         flex-direction: column;
         gap: 10px;
