@@ -1,6 +1,5 @@
 
 @media  (max-width:1200px) {
-    
 }
 
 @media  (max-width:992px) {
@@ -13,6 +12,7 @@
         gap: 30px;
     }
 
+   
 }
 
 @media  (max-width:768px) {
@@ -56,6 +56,15 @@
         transform: rotate(-45deg)
     }
 
+    .video__box svg{
+        width: 85px;
+
+    }
+
+    .video__box{
+    min-height: 500px;
+
+    }
 }
 
 @media  (max-width:576px) {
@@ -114,6 +123,9 @@
         gap: 10px;
     }
     
+    .video__box svg{
+        width: 75px;
+    }
    
 }
 
@@ -160,4 +172,9 @@
     .look__forms p{
         font-size: 13px;
     }
+
+    .video__box{
+        min-height: 400px;
+    
+        }
 }

@@ -427,8 +427,7 @@ transition: .5s;
 
 .video{
     background: #242B33;
- padding-top: 50px;
- padding-bottom: 100px;
+ padding: 40px 30px 90px;
 }
 
 .video__content{
@@ -437,28 +436,21 @@ transition: .5s;
    align-items: center;
 }
 
-
-.video__box svg{
-    position: absolute;
-   left: 750px;
-}
-
-/* 
-
-.video__content{
-    display: flex;
-justify-content: center;
-align-items: center;
-}
-
-
-.video__video{
-    background: url(../img/video.png);
+.video__box{
     width: 100%;
+    background: url(../img/video.png);
     min-height: 650px;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-   justify-content: center;
-} */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 
 .map{
